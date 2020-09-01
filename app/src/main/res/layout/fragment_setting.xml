@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".SettingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txt_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather Location"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt_msg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_msg"
+        android:layout_marginTop="25dp"
+        android:text="Use Device Location"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <Switch
+        android:id="@+id/switch_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_msg"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/txt_msg2" />
+
+    <TextView
+        android:id="@+id/txt_msg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_msg2"
+        android:text="Allow the app to get your location"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_msg3">
+
+        <TextView
+            android:id="@+id/txt_msg4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Set Location Manually"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_locationCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_msg4"
+            android:layout_marginTop="5dp"
+            android:hint="Enter the City Name"
+            android:inputType="text"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/et_locationCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_locationCity"
+            android:layout_marginTop="5dp"
+            android:hint="Enter the Country Name"
+            android:inputType="text"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/txt_unitsmsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_locationCountry"
+            android:layout_marginTop="30dp"
+            android:text="Units"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txt_unitmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_unitsmsg"
+            android:layout_marginTop="25dp"
+            android:text="Unit System"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_units"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_unitmsg"
+            android:layout_marginTop="5dp"
+            android:hint="Metric or Imperial"
+            android:inputType="text"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/btn_done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="25dp"
+            android:background="@color/colorPrimary"
+            android:text="Done"
+            android:textColor="@color/Whitecolor"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

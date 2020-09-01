@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackgroungColor"
+    android:orientation="vertical"
+    tools:context=".AboutFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <ImageView
+            android:id="@+id/img_app"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/weather_logo_1" />
+
+        <TextView
+            android:id="@+id/Abouttheapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_app"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/about_the_app"
+            android:textColor="@color/Whitecolor"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Abouttheapp"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Welcome To the weather Checker App."
+                android:textColor="@color/Whitecolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="\u2600In this App you can see the weather Of any city all around the globe, you can see:"
+                android:textColor="@color/Whitecolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="\u25BA Temperature \n\u25BA Weather Condition \n\u25BA Min Temperature \n\u25BA Max Temperature \n\u25BA Wind\n\u25BA Humidity"
+                android:textColor="@color/Whitecolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="\u2600In Addition to this you can access:"
+                android:textColor="@color/Whitecolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="\u25BA Date\n\u25BA Sunrise Time\n\u25BA Sunsetset Time\n\u25BA Maps \n"
+                android:textColor="@color/Whitecolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/ic_sett"
+                android:text="@string/settingInfo"
+                android:textColor="@color/Whitecolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text=" 1) Setting Location: \n\n \u27A4You can use your Device location by turning the Switch On by, just pressing the Switch.\n \u27A4You can Even Enter Location Manually if you want to get Location of any other Place."
+                android:textColor="@color/Whitecolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  2) Setting Units: \n\n \u27A4We can choose from the follwing options that you want as our units:"
+                android:textColor="@color/Whitecolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text=" \u25AA Metric - \u2103 , m/s \n \u25AA Imperial - \u2109 , mph"
+                android:textColor="@color/Whitecolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/ic_location"
+                android:text="@string/mapsmsg"
+                android:textColor="@color/Whitecolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:text="1)You can see the location for whose weather you are looking for,You can get an amazing city view and Scroll for other places too,The red marker indicates the location of which weather location you are looking for."
+                android:textColor="@color/Whitecolor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Created By Ashish"
+                android:textColor="@color/Whitecolor"
+                android:textSize="24sp" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
