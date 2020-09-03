@@ -32,9 +32,10 @@
 </td>
 <td><img width="170" alt="NavigationDrawer" src="https://user-images.githubusercontent.com/62636670/92086921-7804d680-ede8-11ea-93b3-f44eb08c8157.PNG">
 </td>
-<td><img width="170" alt="manualMetric" src="https://user-images.githubusercontent.com/62636670/92086957-84892f00-ede8-11ea-85cf-89b8a13b348e.PNG">
+<td><img width="170" alt="manualImperial" src="https://user-images.githubusercontent.com/62636670/92087173-d336c900-ede8-11ea-971a-b0b3aa87804e.PNG">
 </td>
-<td> <img width="170" alt="manualMetricHome" src="https://user-images.githubusercontent.com/62636670/92086995-94a10e80-ede8-11ea-8cd3-04913df5ed1d.PNG">
+
+<td><img width="170" alt="manualImperialHome" src="https://user-images.githubusercontent.com/62636670/92087216-dfbb2180-ede8-11ea-86ce-8d54b6e90cbb.PNG">
 </td>
 </tr>
 <tr>
@@ -48,10 +49,9 @@
 </td>
 </tr>
 <tr>
-<td><img width="170" alt="manualImperial" src="https://user-images.githubusercontent.com/62636670/92087173-d336c900-ede8-11ea-971a-b0b3aa87804e.PNG">
+  <td><img width="170" alt="manualMetric" src="https://user-images.githubusercontent.com/62636670/92086957-84892f00-ede8-11ea-85cf-89b8a13b348e.PNG">
 </td>
-
-<td><img width="170" alt="manualImperialHome" src="https://user-images.githubusercontent.com/62636670/92087216-dfbb2180-ede8-11ea-86ce-8d54b6e90cbb.PNG">
+<td> <img width="170" alt="manualMetricHome" src="https://user-images.githubusercontent.com/62636670/92086995-94a10e80-ede8-11ea-8cd3-04913df5ed1d.PNG">
 </td>
 <td><img width="170" alt="dialogueNetwork" src="https://user-images.githubusercontent.com/62636670/92088224-383eee80-edea-11ea-9b4c-b34f0618c2d0.PNG">
 </td>
